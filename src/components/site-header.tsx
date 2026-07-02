@@ -61,9 +61,9 @@ export function SiteHeader() {
           <img
             src={practice.logo}
             alt={practice.name}
-            width={168}
-            height={168}
-            className="h-[168px] w-[168px] rounded-full object-cover ring-2 ring-white/30"
+            width={84}
+            height={84}
+            className="h-[84px] w-[84px] rounded-full object-cover ring-2 ring-white/30"
           />
         </Link>
 

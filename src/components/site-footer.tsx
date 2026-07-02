@@ -64,9 +64,9 @@ export function SiteFooter() {
           <img
             src={practice.logo}
             alt={practice.name}
-            width={192}
-            height={192}
-            className="h-48 w-48 rounded-full object-cover ring-2 ring-white/20"
+            width={96}
+            height={96}
+            className="h-24 w-24 rounded-full object-cover ring-2 ring-white/20"
           />
           <p className="mt-4 font-display text-lg font-bold text-white">
             {practice.name}

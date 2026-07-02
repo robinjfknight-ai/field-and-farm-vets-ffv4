@@ -29,7 +29,7 @@ export default function ReviewsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex h-[65vh] min-h-[420px] items-end pb-14">
+      <section className="relative flex min-h-[80vh] items-end pb-16">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/farm-cow-exam.jpg"
