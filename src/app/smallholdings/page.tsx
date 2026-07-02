@@ -31,9 +31,9 @@ export default function SmallholdingsPage() {
       <section className="relative flex min-h-[80vh] items-end pb-16">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/images/smallholdings-alpaca.jpg"
-          alt="Alpacas at a small-holding"
-          className="absolute inset-0 h-full w-full object-cover object-top"
+          src="/images/smallholdings-alpaca2.png"
+          alt="Alpacas grazing at a small-holding"
+          className="absolute inset-0 h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/30 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
