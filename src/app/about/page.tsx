@@ -27,7 +27,7 @@ export default function AboutPage() {
         <img
           src="/images/about-farm.jpg"
           alt="Field and Farm Vets team in the field"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/40 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">

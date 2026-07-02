@@ -37,7 +37,7 @@ export default function EquinePage() {
         <img
           src="/images/equine-horse.jpg"
           alt="Horse and rider"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/30 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">

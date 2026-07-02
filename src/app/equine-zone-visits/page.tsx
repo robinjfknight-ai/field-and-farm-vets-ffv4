@@ -38,7 +38,7 @@ export default function EquineZoneVisitsPage() {
         <img
           src="/images/equine-vet.jpg"
           alt="Equine veterinary care"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/40 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
