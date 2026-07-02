@@ -32,12 +32,12 @@ export default function FarmPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex h-[65vh] min-h-[420px] items-end pb-14">
+      <section className="relative flex min-h-[80vh] items-end pb-16">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/farm-cow-vet.jpg"
           alt="Vet with cattle"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/30 to-transparent" />
         <div className="relative mx-auto w-full max-w-7xl px-5 sm:px-8">
