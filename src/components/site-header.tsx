@@ -33,7 +33,8 @@ export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const isHeroPage = pathname === "/";
+  // All pages have a full-bleed hero image — header should be readable on all of them
+  const isHeroPage = true;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -48,7 +49,7 @@ export function SiteHeader() {
 
   const headerBg =
     isHeroPage && !scrolled && !open
-      ? "bg-transparent"
+      ? "bg-gradient-to-b from-dark/70 to-transparent"
       : "bg-brand-dark/95 backdrop-blur-md shadow-lg";
 
   return (
@@ -60,9 +61,9 @@ export function SiteHeader() {
           <img
             src={practice.logo}
             alt={practice.name}
-            width={100}
-            height={100}
-            className="h-14 w-14 rounded-full object-cover ring-2 ring-white/30"
+            width={168}
+            height={168}
+            className="h-[168px] w-[168px] rounded-full object-cover ring-2 ring-white/30"
           />
         </Link>
 

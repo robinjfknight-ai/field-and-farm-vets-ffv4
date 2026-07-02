@@ -45,7 +45,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex items-end pb-16 pt-36">
+      <section className="relative flex h-[55vh] min-h-[380px] items-end pb-12">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/premises-2.jpg"

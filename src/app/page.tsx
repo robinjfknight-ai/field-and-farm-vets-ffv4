@@ -59,7 +59,7 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────── */}
-      <section className="relative flex min-h-screen items-end pb-16 pt-32">
+      <section className="relative flex min-h-[80vh] items-end pb-16">
         {/* Background photo */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
